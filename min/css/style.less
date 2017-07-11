@@ -1,0 +1,19 @@
+.init{
+  padding:0;
+  margin:0;
+}
+@nav-font-color:red;
+
+body{&:extend(.init);
+  width:calc(~"calc(100%/3 - 200px)");
+  margin:0 auto;
+}
+ul{
+  &:extend(.init);
+  list-style: none;
+  background: #ccc;
+  li:first-child{
+    background:rgba(0,0,0,0.5);
+    color:@nav-font-color;
+  }
+}

@@ -1,0 +1,7 @@
+
+<div >
+    <ul class="list-unstyled">
+        <li>color：<input type="text" ng-model="color" ></li>
+        <li ng-repeat="item in users" style="color:{{color}}" ng-click="getName(item.name,this)">{{item.id}}：{{item.name | filter1}}</li>
+    </ul>
+</div>
