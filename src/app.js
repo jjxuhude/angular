@@ -1,5 +1,5 @@
-define(['angular','angular-route','constant/config','service/all.service','directive/all.directive','filter/all.filter','controller/all.controller','domReady!'],function(angular){
-    var app=angular.module('app',['app.constant','app.service','app.directive','app.filter','app.controller','ngRoute']);
+define(['angular','angular-route',,'angular-animate','constant/config','service/all.service','directive/all.directive','filter/all.filter','controller/all.controller','domReady!'],function(angular){
+    var app=angular.module('app',['app.constant','app.service','app.directive','app.filter','app.controller','ngRoute','ngAnimate']);
     app.config(['$routeProvider', function($routeProvider) {
         /* $routeProvider 就相当于交通警察，根据when和otherwise指挥路由走向 */
         $routeProvider
