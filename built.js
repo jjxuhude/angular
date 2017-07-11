@@ -1,7 +1,7 @@
 ({
     baseUrl:'./',
     appDir: './',
-    dir:'build',
+    dir:'built',
     modules: [
         {name: "src/app"},
     ],
